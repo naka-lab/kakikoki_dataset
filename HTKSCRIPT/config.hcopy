@@ -1,0 +1,16 @@
+ #Cording Parameters
+ SOURCEFORMAT = WAVE
+ SOURCEKIND = WAVEFORM
+ TARGETKIND = MFCC_E_D_A
+ TARGETRATE = 100000.0       # Frame shift length (10msec).
+ SAVECOMPRESSED = T
+ WINDOWSIZE = 250000.0       # Frame width (25msec).
+ USEHAMMING = T
+ PREEMCOEF = 0.98            # Pre-emphasis coefficient
+ NUMCHANS = 40               # Number of channels of Mel-filterbank
+ NUMCEPS = 20                # Number of MFCC coefficients
+ CEPLIFTER = 30              # Liftering coefficient
+ ENORMALISE = T              # Enable energy normalization
+ DELTAWINDOW = 3             # Delta window size
+ ACCWINDOW = 3               # Delta-delta window size
+
